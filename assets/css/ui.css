@@ -130,6 +130,10 @@ figure {padding:0; margin:0;}
 .ml2 {margin-left:2rem !important;}
 .w100 {width:100%;}
 
+.fa-external-link-alt {font-size:11px;}
+
+.cn-util-wp:before {content:''; display:block; width:20px; height:100vh; background:#fff; position:fixed; top:0;left:0;z-index:3;}
+.cn-util-wp:after {content:''; display:block; width:20px; height:100vh; background:#fff; position:fixed; top:0;right:0;z-index:3;}
 body:before {content:''; display:block; width:100%; height:20px; background:#fff; position:fixed; top:0; z-index:3;}
 body:after {content:''; display:block; width:100%; height:20px; background:#fff; position:fixed; bottom:0;z-index:3;}
 
@@ -140,8 +144,9 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 .cn-global-container .cn-util-wp > ul > li > a {display:block; color:#fff; height:72px; text-align:center; font-size:14px;}
 .cn-global-container .cn-util-wp > ul > li > a:before {content:''; display:inline-block; background:url('../images/i_global.png') no-repeat 50% 50%; background-size:contain; width:100%; height:22px; margin-top:15px;}
 .cn-global-container .cn-util-wp > ul > li > ul {height:0; overflow:hidden; transition:all 0.2s; background:rgba(0,0,0,0.1);}
-.cn-global-container .cn-util-wp > ul > li > ul li a {color:#fff; font-size:13px; height:30px; line-height:30px;display:block; padding-left:8px;}
+.cn-global-container .cn-util-wp > ul > li > ul li a {color:#fff; font-size:13px; height:30px; line-height:30px;display:block; padding-left:8px; position:relative;}
 .cn-global-container .cn-util-wp > ul > li > ul li a:hover {background:rgba(0,0,0,0.1);}
+.cn-global-container .cn-util-wp > ul > li > ul li a i {float:right; padding-right:5px; top:9px; position:relative;}
 .cn-global-container .cn-util-wp > ul > li:last-child a:before {background-image:url('../images/i_shop.png');}
 .cn-global-container .cn-util-wp > ul > li:hover > ul {height:60px;}
 .cn-global-container .cn-util-wp > ul > li:last-child {border-top:1px solid rgba(0,0,0,0.1);}
@@ -162,7 +167,7 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.main-catchy-table {background:#f8f5eb;}
 	.main-catchy-table {width:100%; height:100%; display:table;}
 	.main-catchy-table .main-catchy-cell {display:table-cell;vertical-align:middle;color:#212529;} 
-	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:36px; color:#212529;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:32px; color:#212529;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text h2 strong {font-weight:600;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:17px; margin-top:10px; line-height:1.6;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon {margin-top:40px;}
@@ -176,6 +181,8 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.owl-progressBar:before {content:''; border-top:1px solid #212529;display:block;}
 	.owl-progressBar .owl-progress {width:0; max-width:100%; height:3px; background:#212529; position:relative; margin-top:-2px;}
 
+
+	.owl-carousel .owl-stage {transition:none !important;}
 	.owl-carousel .owl-nav button {font-family:"Font Awesome 5 Free" !important;     -webkit-font-smoothing: antialiased;
     display: inline-block;
     font-style: normal;
@@ -196,8 +203,8 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 .cn-global-container .cn-global .article .owl-carousel .owl-nav {position:absolute; left:0; z-index:5;top: 50%; margin-top: -228px;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots {position:absolute; left:50%; z-index:5; bottom:0;}
  
-
-.cn-biz-container dl {display:flex; }
+.cn-biz-container {padding-bottom:100px;}
+.cn-biz-container dl {display:flex; width:1010px; position:relative; left:50%; margin-left:-500px;}
 .cn-biz-container dl dt {width:500px;}
 .cn-biz-container dl dt h4 {font-size:24px; color:#b0977d; margin-bottom:10px;}
 .cn-biz-container dl dt p {font-size:14px;line-height:1.6; word-break:keep-all;  }
@@ -218,6 +225,9 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 .cn-brands-container ul li .cn-brand-img {display:table; min-height:400px;}
 .cn-brands-container ul li .cn-brand-img figure {display:table-cell;vertical-align:middle;text-align:right; position:relative;}
 .cn-brands-container ul li .cn-brand-img figure:before {content:''; position:absolute; display:block; width:calc(100% - 160px); height:calc(100% + 100px);right:-60px; top:-50px;background:#c5b19e;}
+
+.cn-brands-container ul li .cn-brand-img:nth-child(2) figure:before {background:#e6d5c5;}
+.cn-brands-container ul li .cn-brand-img:nth-child(3) figure:before {background:#eae3cd;}
 .cn-brands-container ul li:nth-child(even) .cn-brand-img figure:before {left:-60px; width:calc(100% - 200px);}
 .cn-brands-container ul li .cn-brand-img figure img {width:90%; position:relative; z-index:2;}
 
@@ -235,7 +245,7 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 #cn-location {background:url('../images/map.png') no-repeat; background-position:bottom -30px left -100px; height:900px; background-size:80%; padding-top:160px;}
 
 .cn-map-container {position:relative;}
-.cn-map-container .cn-map {position:absolute; right:150px;}
+.cn-map-container .cn-map {position:absolute; right:0px;}
 .cn-map-container .cn-map ul li {color:#ae9881; margin-bottom:15px; font-size:15px;  position:relative;}
 .cn-map-container .cn-map ul li > i {width:18px;}
 
@@ -247,3 +257,12 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 
 
 #red {background:red; color:#fff; position:absolute; width:100px; height:100px; line-height:100px; text-align:center; font-size:24px;}
+
+
+@media screen and (max-width: 1450px) {
+.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:26px;}
+}
+@media screen and (max-width: 1281px) {
+.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon li {width:100px; height:30px; padding-top:70px;}
+.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon li:before { background-size:contain; height:50px; }
+}

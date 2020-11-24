@@ -1,5 +1,21 @@
 $(document).ready(function(){
  
+	$('.owl-carousel').owlCarousel({
+		//animateOut: 'fadeOut',
+		autoplay:true,
+		autoplayTimeout:5000,
+		//autoplayHoverPause:true,
+		loop:true, 
+		items:1,
+		mouseDrag: false,
+		margin:0,		
+		onInitialized: startProgressBar,
+		onChanged: resetProgressBar,
+		onTranslate: startProgressBar,
+		nav:true
+	});
+
+
 	function startProgressBar() {
 	  // apply keyframe animation
 	  $(".owl-progress").css({
@@ -16,24 +32,6 @@ $(document).ready(function(){
 	  });
 	  $(".main-catchy-img").removeClass("move");
 	}
-
-	$('.owl-carousel').owlCarousel({
-		
-		onInitialized: startProgressBar,
-		onTranslate: resetProgressBar,
-		onTranslated: startProgressBar,
-
-		animateOut: 'fadeOut',
-		autoplay:true,
-		autoplayTimeout:5000,
-		//autoplayHoverPause:true,
-		loop:true, 
-		items:1,
-		mouseDrag: false,
-		margin:0,
-		nav:true
-	});
-
 
 
 

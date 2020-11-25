@@ -9,12 +9,23 @@ $(document).ready(function(){
 		items:1,
 		mouseDrag: false,
 		margin:0,		
-		onInitialized: startProgressBar,
+		onInitialized: initProgressBar,
+		onChange: startProgressBar,
 		onChanged: resetProgressBar,
+		onTranslated: resetProgressBar,
 		onTranslate: startProgressBar,
 		nav:true
 	});
 
+
+	function initProgressBar() {
+	  // apply keyframe animation
+	  $(".owl-progress").css({
+		width: "100%",
+		transition: "width 5000ms"
+	  });
+	  $(".owl-item.active .main-catchy-img").css('background-size', '130%');
+	}
 
 	function startProgressBar() {
 	  // apply keyframe animation
@@ -22,7 +33,7 @@ $(document).ready(function(){
 		width: "100%",
 		transition: "width 5000ms"
 	  });
-	  $(".owl-item.active .main-catchy-img").addClass("move");
+	  $(".owl-item.active .main-catchy-img").removeClass("move");
 	}
 
 	function resetProgressBar() {
@@ -30,7 +41,7 @@ $(document).ready(function(){
 		width: 0,
 		transition: "width 0s"
 	  });
-	  $(".main-catchy-img").removeClass("move");
+	  $(".main-catchy-img").addClass("move");
 	}
 
 

@@ -195,7 +195,7 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.owl-carousel .owl-nav button span {display:none;}
 
 .cn-global-container .cn-global .article .owl-carousel dl dd { width:50%; display:inline-block;height:calc(100vh - 40px);} 
-.cn-global-container .cn-global .article .owl-carousel dl dd.main-catchy-img {background-size:110%; background-position:50% 50%; transition:all 5.6s;}
+.cn-global-container .cn-global .article .owl-carousel dl dd.main-catchy-img {background-size:110%; background-position:50% 50%; transition:background 5.6s;}
 .cn-global-container .cn-global .article .owl-carousel dl dd.main-catchy-img.move {background-size:130%;}
 .cn-global-container .cn-global .article .owl-carousel dl dd.item1 {background-image:url('../images/img1.png');}
 .cn-global-container .cn-global .article .owl-carousel dl dd.item2 {background-image:url('../images/img2.png');}

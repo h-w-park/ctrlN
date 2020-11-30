@@ -183,6 +183,7 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.owl-progressBar:before {content:''; border-top:1px solid #212529;display:block;}
 	.owl-progressBar .owl-progress {width:0; max-width:100%; height:3px; background:#212529; position:relative; margin-top:-2px;}
 
+ 
 
 	.owl-carousel .owl-stage {transition:none !important;}
 	.owl-carousel .owl-nav button {font-family:"Font Awesome 5 Free" !important;     -webkit-font-smoothing: antialiased;
@@ -196,14 +197,15 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.owl-carousel .owl-nav button.owl-next:before {content:"\f061";}
 	.owl-carousel .owl-nav button span {display:none;}
 
-.cn-global-container .cn-global .article .owl-carousel dl dd { width:50%; display:inline-block;height:calc(100vh - 40px);}
-.cn-global-container .cn-global .article .owl-carousel dl dd.main-catchy-img {background-size:110%; background-position:50% 50%; transition:background 5.6s;}
-.cn-global-container .cn-global .article .owl-carousel dl dd.main-catchy-img.move {background-size:130%;}
-.cn-global-container .cn-global .article .owl-carousel dl dd.item1 {background-image:url('../images/img1.png');}
-.cn-global-container .cn-global .article .owl-carousel dl dd.item2 {background-image:url('../images/img2.png');}
-.cn-global-container .cn-global .article .owl-carousel dl:after {content:''; float:none; clear:both;}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd { width:50%; display:inline-block;height:calc(100vh - 40px);}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:110%; background-position:50% 50%; transition:background 5.6s;} 
+.cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:120%;}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item1 {background-image:url('../images/img1.png');}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item2 {background-image:url('../images/img2.png');}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl:after {content:''; float:none; clear:both;}
 .cn-global-container .cn-global .article .owl-carousel .owl-nav {position:absolute; left:0; z-index:5;top: 50%; margin-top: -228px;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots {position:absolute; left:50%; z-index:5; bottom:0;}
+
 
 .cn-biz-container {padding-bottom:100px;}
 .cn-biz-container dl {display:flex; position:relative; }
@@ -294,4 +296,10 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.cn-biz-container dl.d2c dt {margin-top:30px;}
 
 	.cn-brands-container ul li .cn-brand-cell .info p {font-size: 17px;}
+	.btn-wp a {font-size:15px;}
+
+	
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:135%; transition:background 5.6s;} 
+.cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:150%;}
+
 }

@@ -10,10 +10,13 @@ $(document).ready(function(){
 		mouseDrag: false,
 		margin:0,		
 		onInitialized: initProgressBar,
+			 
+		onResized: initProgressBar,
+
 		onChange: startProgressBar,
 		onChanged: resetProgressBar,
-		onTranslated: resetProgressBar,
 		onTranslate: startProgressBar,
+		onTranslated: resetProgressBar,
 		nav:true
 	});
 
@@ -24,7 +27,6 @@ $(document).ready(function(){
 		width: "100%",
 		transition: "width 5000ms"
 	  });
-	  $(".owl-item.active .main-catchy-img").css('background-size', '130%');
 	}
 
 	function startProgressBar() {
@@ -33,7 +35,6 @@ $(document).ready(function(){
 		width: "100%",
 		transition: "width 5000ms"
 	  });
-	  $(".owl-item.active .main-catchy-img").removeClass("move");
 	}
 
 	function resetProgressBar() {
@@ -41,7 +42,6 @@ $(document).ready(function(){
 		width: 0,
 		transition: "width 0s"
 	  });
-	  $(".main-catchy-img").addClass("move");
 	}
 
 

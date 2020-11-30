@@ -23,7 +23,7 @@ GLOBAL RESET
 
 html, body {
 	font-size: 62.5%;
-	min-width:1900px;
+	min-width:1280px;
 }
 
 @media (min-width: 1920px) {
@@ -49,7 +49,7 @@ input, select, textarea, a, button {
     letter-spacing:-0.5px;
     color: #495057;
 	background:none;
-    font-family:'DM Serif Display', 'Noto Serif KR', sans-serif;
+    font-family:'Noto Serif KR', sans-serif;
 }
 table {font-size: 1.3rem;
     color: #495057; letter-spacing:-0.5px;
@@ -162,7 +162,7 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 .cn-global-container .cn-global .cn-nav ul li.active:after {content:''; width:100%;}
 .cn-global-container .cn-global .article {min-height:80vh;  padding :0 150px 0 270px; position:relative;}
 .cn-global-container .cn-global .article#cn-biz {background:#fff;}
-.cn-global-container .cn-global .article > h2 {font-size:86px; color:#dfd2aa;padding:150px 0 100px;}
+.cn-global-container .cn-global .article > h2 {font-size:86px; font-family:'DM Serif Display'; color:#dfd2aa;padding:150px 0 100px;}
 .cn-global-container .cn-global .article#cn-main {padding-right:0;}
 .cn-global-container .cn-global .article .owl-carousel dl {display:flex;}
 .cn-global-container .cn-global .article .owl-carousel dl dt {width:50%; float:left;}
@@ -206,17 +206,19 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 .cn-global-container .cn-global .article .owl-carousel .owl-dots {position:absolute; left:50%; z-index:5; bottom:0;}
 
 .cn-biz-container {padding-bottom:100px;}
-.cn-biz-container dl {display:flex; width:1110px; position:relative; left:50%; margin-left:-500px;}
-.cn-biz-container dl dt {width:570px;}
+.cn-biz-container dl {display:flex; position:relative; }
+.cn-biz-container dl dt {width:45%;}
 .cn-biz-container dl dt h4 {font-size:28px; color:#b0977d; margin-bottom:15px;}
 .cn-biz-container dl dt p {font-size:18px;line-height:1.6; word-break:keep-all;  }
 .cn-biz-container dl dt p + p {margin-top:10px;}
 .cn-biz-container dl dt p strong {color:#212529; font-weight:600;}
+.cn-biz-container dl dd {width:55%;}
+.cn-biz-container dl dd img {width:100%;}
+
+
 .cn-biz-container dl.npd dt {text-align:right; padding-right:60px;}
 .cn-biz-container dl.d2c dt {margin-top:60px;}
 .cn-biz-container dl.d2c dd figure {border:60px solid #fff; position:relative; margin-top:-60px;}
-.cn-biz-container dl.npd dd img {height:350px;}
-.cn-biz-container dl.d2c dd img {height:350px;}
 
 .cn-brands-container {}
 .cn-brands-container ul {position:relative;}
@@ -262,3 +264,34 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 
 
 #red {background:red; color:#fff; position:absolute; width:100px; height:100px; line-height:100px; text-align:center; font-size:24px;}
+
+
+
+@media (max-width: 1800px) { 
+
+	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:36px;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:20px;}
+
+	.cn-global-container .cn-global .article {padding: 0 80px 0 270px;}
+
+	.cn-biz-container dl.npd dt {padding-bottom:60px;} 
+
+
+}
+
+
+@media (max-width: 1440px) { 
+ 
+	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:30px;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:16px;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon li {width: 100px; height: 30px; padding-top: 70px;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon li:before {
+    width: 50px;
+    height: 50px; background-size:contain; margin-left:-25px; top:15px;}
+
+	.cn-biz-container dl dt h4 {font-size:20px;}
+	.cn-biz-container dl dt p {font-size:14px;}
+	.cn-biz-container dl.d2c dt {margin-top:30px;}
+
+	.cn-brands-container ul li .cn-brand-cell .info p {font-size: 17px;}
+}

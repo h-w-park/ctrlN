@@ -141,13 +141,13 @@ body {overflow-x:hidden;  width: 100vw; }
 .cn-util-wp > ul > li {width:15rem;}
 .cn-util-wp > ul > li > a {display:block; color:#fff; height:15rem; text-align:center; font-size:3rem;}
 .cn-util-wp > ul > li > a:before {content:''; display:inline-block; background:url('../images/i_global.png') no-repeat 50% 50%; background-size:contain; width:100%; height:5rem; margin-top:3rem;}
-.cn-util-wp > ul > li > ul {height:0; overflow:hidden; transition:all 0.2s; background:rgba(0,0,0,0.1);}
-.cn-util-wp > ul > li > ul li a {color:#fff; font-size:13px; height:3rem; line-height:3rem;display:block; padding-left:8px; position:relative;}
-.cn-util-wp > ul > li > ul li a:hover {background:rgba(0,0,0,0.1);}
-.cn-util-wp > ul > li > ul li a i {float:right; padding-right:5px; top:9px; position:relative;}
+.cn-util-wp > ul > li > ul {height:0; width:50%;overflow:hidden; transition:all 0.2s; background:rgba(0,0,0,0.1); position:absolute;}
+.cn-util-wp > ul > li > ul li a {color:#fff; font-size:3rem; height:10rem; line-height:10rem;display:block; padding-left:2rem; position:relative;}
+.cn-util-wp > ul > li > ul li a:hover {background:rgba(0,0,0,0.8);}
+.cn-util-wp > ul > li > ul li a i {float:right; padding-right:2rem; top:3.4rem; position:relative;}
 .cn-util-wp > ul > li:last-child a:before {background-image:url('../images/i_shop.png');}
-.cn-util-wp > ul > li:hover > ul {height:6rem;}
-.cn-util-wp > ul > li:last-child {border-top:1px solid rgba(0,0,0,0.1);}
+.cn-util-wp > ul > li:hover > ul {height:20rem;}
+.cn-util-wp > ul > li:last-child {border-left:1px solid rgba(0,0,0,0.4);}
 
 .cn-global-container .cn-global .cn-nav {position:fixed; top:45%; margin-left:7rem; z-index:3;}
 .cn-global-container .cn-global .cn-nav ul li {position:relative; padding:5px 0 5px 5rem;}
@@ -200,7 +200,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots > button.active {background:rgba(255,255,255,1);}
 
 
-.cn-biz-container {padding-bottom:10rem;}
+.cn-biz-container {padding :5rem 0 10rem;}
 .cn-biz-container dl {position:relative; }
 .cn-biz-container dl dt {padding:4rem 3rem 10rem;}
 .cn-biz-container dl dt h4 {font-size:5rem; color:#b0977d; margin-bottom:1.5rem;}
@@ -239,11 +239,10 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-brands-container ul li .cn-brand-cell .info p + p {margin-top:2rem;}
 .cn-brands-container ul li:after {content:''; clear:both; float:none; display:block;}
 
-#cn-location {background:url('../images/map.png') no-repeat; background-position:bottom -3rem left -24rem; height:100rem; background-size:130%;  }
+#cn-location  {background-position:bottom -3rem left -24rem; height:100rem; background-size:130%;  }
 #cn-location > h2 {padding-bottom:10rem;}
 
-.cn-map-container {position:relative;}
-.cn-map-container .cn-map {position:absolute; right:0px;}
+.cn-map-container {position:relative;} 
 .cn-map-container .cn-map ul li {color:#ae9881; margin-bottom:1.5rem; font-size:1.8rem;  position:relative;}
 .cn-map-container .cn-map ul li > i {width:1.8rem;}
 

@@ -203,8 +203,8 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-biz-container {padding-bottom:10rem;}
 .cn-biz-container dl {position:relative; }
 .cn-biz-container dl dt {padding:4rem 3rem 10rem;}
-.cn-biz-container dl dt h4 {font-size:4rem; color:#b0977d; margin-bottom:1.5rem;}
-.cn-biz-container dl dt p { line-height:1.4; word-break:keep-all;  }
+.cn-biz-container dl dt h4 {font-size:5rem; color:#b0977d; margin-bottom:1.5rem;}
+.cn-biz-container dl dt p {font-size:3rem; line-height:1.4; word-break:keep-all;  }
 .cn-biz-container dl dt p + p {margin-top:2rem;}
 .cn-biz-container dl dt p strong {color:#212529; font-weight:600;}
 .cn-biz-container dl dd {width:100%;}
@@ -234,7 +234,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-brands-container ul li .cn-brand-cell h4:after {position: absolute; content: ''; display: block; height: 3px; width:7rem; background: #b0977d; left:50%; margin-left: -35px; bottom:0px;}
 .cn-brands-container ul li .cn-brand-cell .info {text-align:center; padding:0 3rem;}
 .cn-brands-container ul li .cn-brand-cell .info span {display:inline-block; margin :6rem 0 2rem; font-size:3rem; color:#212529; font-weight:600;}
-.cn-brands-container ul li .cn-brand-cell .info p {margin-top:3rem; line-height:1.6; }
+.cn-brands-container ul li .cn-brand-cell .info p {margin-top:3rem; font-size:3rem; line-height:1.6; }
 .cn-brands-container ul li .cn-brand-cell .info p strong {color:#212529;}
 .cn-brands-container ul li .cn-brand-cell .info p + p {margin-top:2rem;}
 .cn-brands-container ul li:after {content:''; clear:both; float:none; display:block;}

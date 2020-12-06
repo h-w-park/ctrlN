@@ -129,10 +129,9 @@ figure {padding:0; margin:0;}
 .w100 {width:100%;}
 
 .fa-external-link-alt {font-size:2.5rem;}
-
 body {overflow-x:hidden;  width: 100vw; }
 
-.cn-global-container {position:relative; width:100%; margin:0 auto;background:#f8f5eb;  }
+.cn-global-container {position:relative; width:100%; max-width:980px; margin:0 auto;background:#f8f5eb;}
 .cn-global-container header {width:100%; height:15rem ;position:fixed;z-index:3; background:#b38948;}
 .cn-global-container header h1 {margin-top:3rem; margin-left:3rem;}
 .cn-global-container header h1 a {display:inline-block; height:8rem; width:20rem; text-indent:-999px; overflow:hidden;background:url('../images/logo_ctrlN_wh.png') no-repeat; background-size:contain;}
@@ -204,8 +203,8 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-biz-container {padding-bottom:10rem;}
 .cn-biz-container dl {position:relative; }
 .cn-biz-container dl dt {padding:4rem 3rem 10rem;}
-.cn-biz-container dl dt h4 {font-size:2.8rem; color:#b0977d; margin-bottom:1.5rem;}
-.cn-biz-container dl dt p {font-size:1.3rem;line-height:1.4; word-break:keep-all;  }
+.cn-biz-container dl dt h4 {font-size:4rem; color:#b0977d; margin-bottom:1.5rem;}
+.cn-biz-container dl dt p { line-height:1.4; word-break:keep-all;  }
 .cn-biz-container dl dt p + p {margin-top:2rem;}
 .cn-biz-container dl dt p strong {color:#212529; font-weight:600;}
 .cn-biz-container dl dd {width:100%;}
@@ -235,9 +234,9 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-brands-container ul li .cn-brand-cell h4:after {position: absolute; content: ''; display: block; height: 3px; width:7rem; background: #b0977d; left:50%; margin-left: -35px; bottom:0px;}
 .cn-brands-container ul li .cn-brand-cell .info {text-align:center; padding:0 3rem;}
 .cn-brands-container ul li .cn-brand-cell .info span {display:inline-block; margin :6rem 0 2rem; font-size:3rem; color:#212529; font-weight:600;}
-.cn-brands-container ul li .cn-brand-cell .info p {margin-top:3rem; line-height:1.6; font-size:1.3rem;}
+.cn-brands-container ul li .cn-brand-cell .info p {margin-top:3rem; line-height:1.6; }
 .cn-brands-container ul li .cn-brand-cell .info p strong {color:#212529;}
-.cn-brands-container ul li .cn-brand-cell .info p + p {margin-top:1rem;}
+.cn-brands-container ul li .cn-brand-cell .info p + p {margin-top:2rem;}
 .cn-brands-container ul li:after {content:''; clear:both; float:none; display:block;}
 
 #cn-location {background:url('../images/map.png') no-repeat; background-position:bottom -3rem left -24rem; height:100rem; background-size:130%;  }

@@ -7,19 +7,17 @@ $(document).ready(function(){
 		//autoplayHoverPause:true,
 		loop:true, 
 		items:1,
+		touchDrag: false,
 		mouseDrag: false,
 		margin:0,		
-		onInitialized: initProgressBar,
-			 
+		onInitialized: initProgressBar,			 
 		onResized: initProgressBar,
-
 		onChange: startProgressBar,
 		onChanged: resetProgressBar,
 		onTranslate: startProgressBar,
 		onTranslated: resetProgressBar,
 		nav:true
 	});
-
 
 	function initProgressBar() {
 	  // apply keyframe animation

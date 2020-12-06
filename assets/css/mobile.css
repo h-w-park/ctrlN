@@ -22,7 +22,7 @@ GLOBAL RESET
 */
 
 html, body {
-	font-size: 62.5%; 
+	font-size: 10px; 
 } 
 
 @media (min-width: 302rem) {
@@ -172,7 +172,8 @@ body {overflow-x:hidden;  width: 100vw; }
 	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:3rem; margin-top:2rem; line-height:1.6;}
 
 ul.catchy-icon {padding-top:6rem; margin:0 auto; text-align:center;}
-ul.catchy-icon li {display:inline-block; width:26rem; height:7rem;padding-top:19rem; border:1px solid #868e96; color:#212529; border-radius:50%; font-size:2.6rem; text-align:center; margin-right:2%;  position:relative;}
+ul.catchy-icon li {display:inline-block; width:26rem; height:7rem;padding-top:19rem; border:1px solid #868e96; color:#212529; border-radius:50%; text-align:center; margin-right:2%;  position:relative;}
+ul.catchy-icon li span {font-size:3rem; }
 ul.catchy-icon li:before {content:''; display:block; background:url('../images/i_a.png') no-repeat 50% 50%; background-size:contain; width:12rem; height:12rem ;position:absolute; top:4rem; left:50%; margin-left:-6rem;}
 ul.catchy-icon li:nth-child(2):before {background-image:url('../images/i_b.png');}
 ul.catchy-icon li:last-child:before {background-image:url('../images/i_c.png');}

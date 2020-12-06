@@ -219,7 +219,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-brands-container ul li h4 img {height:4rem;} 
 .cn-brands-container ul li .cn-brand-img {display:table; padding:5%;}
 .cn-brands-container ul li .cn-brand-img figure {display:table-cell;vertical-align:middle;text-align:right; position:relative;}
-.cn-brands-container ul li .cn-brand-img figure:before {content:''; position:absolute; display:block; width:calc(100% - 2rem); height:110%;right:-1rem; top:-5%;background:#c5b19e;}
+.cn-brands-container ul li .cn-brand-img figure:before {content:''; position:absolute; display:block; width:80%; height:114%;right:-5%; top:-7%;background:#c5b19e;}
 
 .cn-brands-container ul li .cn-brand-img:nth-child(2) figure:before {background:#e6d5c5;}
 .cn-brands-container ul li .cn-brand-img:nth-child(3) figure:before {background:#eae3cd;}

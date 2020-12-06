@@ -132,15 +132,15 @@ figure {padding:0; margin:0;}
 body {overflow-x:hidden;  width: 100vw; }
 
 .cn-global-container {position:relative; width:100%; max-width:980px; margin:0 auto;background:#f8f5eb;}
-.cn-global-container header {width:100%; height:15rem ;position:fixed;z-index:3; background:#b38948;}
-.cn-global-container header h1 {margin-top:3rem; margin-left:3rem;}
-.cn-global-container header h1 a {display:inline-block; height:8rem; width:20rem; text-indent:-999px; overflow:hidden;background:url('../images/logo_ctrlN_wh.png') no-repeat; background-size:contain;}
+.cn-global-container header {width:100%; height:5rem ;position:fixed;z-index:3; background:#b38948;}
+.cn-global-container header h1 {margin-top:1rem; margin-left:1rem;}
+.cn-global-container header h1 a {display:inline-block; height:3rem; width:5rem; text-indent:-999px; overflow:hidden;background:url('../images/logo_ctrlN_wh.png') no-repeat; background-size:contain;}
 
 .cn-util-wp {z-index:3; background:rgba(0,0,0,0.1);  position:fixed; top:0rem; right:0rem;}
 .cn-util-wp > ul {display:flex;}
-.cn-util-wp > ul > li {width:15rem;}
-.cn-util-wp > ul > li > a {display:block; color:#fff; height:15rem; text-align:center; font-size:3rem;}
-.cn-util-wp > ul > li > a:before {content:''; display:inline-block; background:url('../images/i_global.png') no-repeat 50% 50%; background-size:contain; width:100%; height:5rem; margin-top:3rem;}
+.cn-util-wp > ul > li {width:5rem;}
+.cn-util-wp > ul > li > a {display:block; color:#fff; height:5rem; text-align:center; font-size:1.3rem;}
+.cn-util-wp > ul > li > a:before {content:''; display:inline-block; background:url('../images/i_global.png') no-repeat 50% 50%; background-size:contain; width:100%; height:1.5rem; margin-top:1rem;}
 .cn-util-wp > ul > li > ul {height:0; width:50%;overflow:hidden; transition:all 0.2s; background:rgba(0,0,0,0.5); position:absolute;}
 .cn-util-wp > ul > li > ul li a {color:#fff; font-size:3rem; height:10rem; line-height:10rem;display:block; padding-left:2rem; position:relative;}
 .cn-util-wp > ul > li > ul li a:hover {background:rgba(0,0,0,0.8);}
@@ -165,9 +165,9 @@ body {overflow-x:hidden;  width: 100vw; }
  
 	.main-catchy-table {width:100%; height:100%; display:table;}
 	.main-catchy-table .main-catchy-cell {display:table-cell;vertical-align:middle;color:#212529;}
-	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:4.6rem; color:#212529; }
+	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:2rem; color:#212529; }
 	.main-catchy-table .main-catchy-cell .main-catchy-text h2 strong {font-weight:600;}
-	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:3rem; margin-top:2rem; line-height:1.6;}
+	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:1.3rem; margin-top:1rem; line-height:1.6;}
 
 ul.catchy-icon {padding-top:6rem; margin:0 auto; text-align:center;}
 ul.catchy-icon li {display:inline-block; width:24rem; height:7rem;padding-top:17rem; border:1px solid #868e96; color:#212529; border-radius:50%; text-align:center; margin-right:2%;  position:relative;}
@@ -189,7 +189,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 	.owl-carousel .owl-nav button span {display:none;}
 
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl {position:relative;}
-.cn-global-container .cn-global .article .owl-carousel .owl-item dl dt {position:absolute; background:#fff; z-index:9999; top:65%; right:0; width:70%; padding:5rem 4rem;}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dt {position:absolute; background:#fff; z-index:9999; top:65%; right:0; width:77%; padding:2rem ;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd {width:100%; height:100vh;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:130%; background-position:50% 50%; transition:background 5.6s;} 
 .cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:160%;}
@@ -197,8 +197,8 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item2 {background-image:url('../images/img2.png');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl:after {content:''; float:none; clear:both;}
 .cn-global-container .cn-global .article .owl-carousel .owl-nav {position:absolute; left:0; z-index:5;top: 50%; left:26%; margin-top: 4rem;display:none;}
-.cn-global-container .cn-global .article .owl-carousel .owl-dots {position:absolute; left:26%; z-index:5; top:60%;}
-.cn-global-container .cn-global .article .owl-carousel .owl-dots > button {width:3rem; height:3rem; border-radius:50%; background:rgba(255,255,255,.4); margin:0 1rem;}
+.cn-global-container .cn-global .article .owl-carousel .owl-dots {position:absolute; left:16%; z-index:5; top:60%;}
+.cn-global-container .cn-global .article .owl-carousel .owl-dots > button {width:1rem; height:1rem; border-radius:50%; background:rgba(255,255,255,.4); margin:0 0.5rem;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots > button.active {background:rgba(255,255,255,1);}
 
 

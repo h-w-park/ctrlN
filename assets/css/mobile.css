@@ -130,14 +130,14 @@ figure {padding:0; margin:0;}
 .w100 {width:100%;}
 
 .fa-external-link-alt {font-size:1.3rem;}
-body {overflow-x:hidden;  width: 100vw; }
+body {overflow-x:hidden;  width: 100%; max-width:640px; margin:0 auto;}
 
-.cn-global-container {position:relative; width:100%; max-width:980px; margin:0 auto;background:#f8f5eb;}
-.cn-global-container header {width:100%; height:5rem ;position:fixed;z-index:3; background:#b38948;}
+.cn-global-container {position:relative; width:100%; background:#f8f5eb;}
+.cn-global-container header {width:100%; max-width:640px;  height:5rem ;position:fixed;z-index:3; background:#b38948;}
 .cn-global-container header h1 {margin-top:1rem; margin-left:1rem;}
 .cn-global-container header h1 a {display:inline-block; height:3rem; width:5rem; text-indent:-999px; overflow:hidden;background:url('../images/logo_ctrlN_wh.png') no-repeat; background-size:contain;}
 
-.cn-util-wp {z-index:3; background:rgba(0,0,0,0.1);  position:fixed; top:0rem; right:0rem;}
+.cn-util-wp {z-index:3; background:rgba(0,0,0,0.1);  position:absolute; top:0rem; right:0rem;}
 .cn-util-wp > ul {display:flex;}
 .cn-util-wp > ul > li {width:5rem;}
 .cn-util-wp > ul > li > a {display:block; color:#fff; height:5rem; text-align:center; font-size:1.3rem;}

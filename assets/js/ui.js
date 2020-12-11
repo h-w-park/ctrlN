@@ -43,6 +43,14 @@ $(document).ready(function(){
 	}
 
 
+	$(".left-nav").click(function(){
+		var va1 = $(this).attr("href")
+		var va2 = $(va1).offset();
+		console.log(va1);
+		$('html, body').animate({scrollTop : va2.top}, 500);
+
+	});
+ 
 
 });
 

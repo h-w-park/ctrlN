@@ -17,11 +17,11 @@ GLOBAL RESET
 */
 
 html {
-	font-size: 62.5%; 
+	font-size: 62.5%;
     font-family:'Noto Serif KR', sans-serif;
-} 
- 
-html:lang(cn) { 
+}
+
+html:lang(cn) {
 
     font-family:'Noto Serif SC', sans-serif;
 }
@@ -42,7 +42,7 @@ input, select, textarea, a, button {
 	font-size:1.5rem;
     letter-spacing:-0.5px;
     color: #495057;
-	background:none; 
+	background:none;
 }
 table {font-size: 1.3rem;
     color: #495057; letter-spacing:-0.5px;
@@ -162,8 +162,8 @@ body {overflow-x:hidden;  width: 100%; max-width:640px; margin:0 auto;}
 .cn-global-container .cn-global .article#cn-bix,
 .cn-global-container .cn-global .article#cn-biz {background:#fff;}
 .cn-global-container .cn-global .article > h2 {font-size:3.8rem; font-family:'DM Serif Display'; color:#dfd2aa;padding:3rem 0 2rem; text-align:center;}
-.cn-global-container .cn-global .article#cn-main {padding-right:0;} 
- 
+.cn-global-container .cn-global .article#cn-main {padding-right:0;}
+
 	.main-catchy-table {width:100%; height:100%; display:table;}
 	.main-catchy-table .main-catchy-cell {display:table-cell;vertical-align:middle;color:#212529;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:2rem; color:#212529; }
@@ -191,7 +191,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl {position:relative;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dt {position:absolute; background:#fff; z-index:9999; top:65%; right:0; width:77%; padding:2rem ;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd {width:100%; height:100vh;}
-.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:130%; background-position:50% 50%; transition:background 5.6s;} 
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:130%; background-position:50% 50%; transition:background 5.6s;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:150%;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item1 {background-image:url('../images/img1.png');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item2 {background-image:url('../images/img2.png');}
@@ -201,7 +201,7 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots > button {width:1rem; height:1rem; border-radius:50%; background:rgba(255,255,255,.4); margin:0 0.5rem;}
 .cn-global-container .cn-global .article .owl-carousel .owl-dots > button.active {background:rgba(255,255,255,1);}
 
- 
+
 .cn-biz-container dl {position:relative; }
 .cn-biz-container dl dt {padding:2rem 2rem 5rem;}
 .cn-biz-container dl dt h4 {font-size:2.3rem; color:#b0977d; margin-bottom:1.5rem;}
@@ -215,9 +215,9 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-biz-container dl.d2c dd figure {  position:relative; }
 
 .cn-brands-container {}
-.cn-brands-container ul {position:relative;} 
+.cn-brands-container ul {position:relative;}
 .cn-brands-container ul li {padding:0 0 7rem;}
-.cn-brands-container ul li h4 img {height:4rem;} 
+.cn-brands-container ul li h4 img {height:4rem;}
 .cn-brands-container ul li .cn-brand-img {display:table; padding:5%;}
 .cn-brands-container ul li .cn-brand-img figure {display:table-cell;vertical-align:middle;text-align:right; position:relative;}
 .cn-brands-container ul li .cn-brand-img figure:before {content:''; position:absolute; display:block; width:80%; height:114%;right:-5%; top:-7%;background:#c5b19e;}
@@ -240,9 +240,9 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-brands-container ul li .cn-brand-cell .info p + p {margin-top:1.2rem;}
 .cn-brands-container ul li:after {content:''; clear:both; float:none; display:block;}
 
-#cn-location {padding-bottom:5rem;} 
+#cn-location {padding-bottom:5rem;}
 
-.cn-map-container {position:relative;} 
+.cn-map-container {position:relative;}
 .cn-map-container .cn-map ul {margin:2rem 2rem 0;}
 .cn-map-container .cn-map ul li {color:#ae9881; margin-bottom:1.5rem; font-size:1.5rem;  position:relative;}
 .cn-map-container .cn-map ul li > i {width:2rem; }
@@ -255,4 +255,3 @@ ul.catchy-icon li:last-child {margin-right:0;}
 
 
 #red {background:red; color:#fff; position:absolute; width:10rem; height:10rem; line-height:10rem; text-align:center; font-size:24px;}
-

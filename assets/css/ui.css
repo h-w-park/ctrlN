@@ -22,7 +22,7 @@ html {
     font-family:'Noto Serif KR', sans-serif;
 }
 
-html:lang(cn) { 
+html:lang(cn) {
 
     font-family:'Noto Serif SC', sans-serif;
 }
@@ -191,14 +191,14 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.owl-carousel .owl-nav button.owl-next:before {content:"\f061";}
 	.owl-carousel .owl-nav button span {display:none;}
 
-.cn-global-container .cn-global .article .owl-carousel {overflow:hidden;}  
+.cn-global-container .cn-global .article .owl-carousel {overflow:hidden;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item.active {z-index:99999; width:calc(100% + 2px);background:#f8f5eb; position:relative; left:-2px;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl {display:flex; width:calc(100% + 2px);}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dt {width:50%; float:left; position:relative;  }
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd { width:50%; display:inline-block;height:calc(100vh - 40px);}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:110%; background-position:50% 50%; transition:background 5.6s;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:120%;}
-.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item1 {background-image:url('../images/img1.png');}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item1 {background-image:url('../images/01/3.jpg');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item2 {background-image:url('../images/img2.png');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl:after {content:''; float:none; clear:both;}
 .cn-global-container .cn-global .article .owl-carousel .owl-nav {position:absolute; left:0; z-index:5;top: 50%; margin-top: -228px;}
@@ -271,21 +271,21 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 
 
 
-@media (max-width: 1800px) { 
+@media (max-width: 1800px) {
 
 	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:36px;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:20px;}
 
 	.cn-global-container .cn-global .article {padding: 0 80px 0 270px;}
 
-	.cn-biz-container dl.npd dt {padding-bottom:60px;} 
+	.cn-biz-container dl.npd dt {padding-bottom:60px;}
 
 
 }
 
 
-@media (max-width: 1440px) { 
- 
+@media (max-width: 1440px) {
+
 	.main-catchy-table .main-catchy-cell .main-catchy-text h2 {font-size:30px;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text p {font-size:16px;}
 	.main-catchy-table .main-catchy-cell .main-catchy-text ul.catchy-icon li {width: 100px; height: 30px; padding-top: 70px;}
@@ -300,8 +300,8 @@ body:after {content:''; display:block; width:100%; height:20px; background:#fff;
 	.cn-brands-container ul li .cn-brand-cell .info p {font-size: 17px;}
 	.btn-wp a {font-size:15px;}
 
-	
-.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:135%; transition:background 5.6s;} 
+
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:135%; transition:background 5.6s;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {background-size:150%;}
 
 }

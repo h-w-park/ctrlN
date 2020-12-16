@@ -191,8 +191,8 @@ ul.catchy-icon li:last-child {margin-right:0;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl {position:relative;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dt {position:absolute; background:#fff; z-index:9999; top:65%; right:0; width:77%; padding:2rem ;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd {width:100%; height:100vh;}
-.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:160%; background-position:50% 50%; transition:all 5.6s; transform: scale(1.0);}
-.cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  { transform: scale(1.1);}
+.cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.main-catchy-img {background-size:160%; background-position:50% 50%; transform: scale(1.0);}
+.cn-global-container .cn-global .article .owl-carousel .owl-item.active dl dd.main-catchy-img  {transition:transform 5.6s;  transform: scale(1.1) ;}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item1 {background-image:url('../images/img1.png');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl dd.item2 {background-image:url('../images/img2.png');}
 .cn-global-container .cn-global .article .owl-carousel .owl-item dl:after {content:''; float:none; clear:both;}

@@ -10,6 +10,15 @@
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 	<script src="assets/js/ui.js"></script>
+	<script>
+	var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson','Windows Phone');
+	for (var word in mobileKeyWords){
+	if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+	location.href = "mobile.html";
+	break;
+	}
+	}
+	</script>
 </head>
 <body>
 	<div id="cn-global-container" class="cn-global-container" class="skrollr skrollr-desktop">

@@ -1,16 +1,19 @@
+
+
 $(document).ready(function(){
- 
+
+
 	$('.owl-carousel').owlCarousel({
 		//animateOut: 'fadeOut',
 		autoplay:true,
 		autoplayTimeout:5000,
 		//autoplayHoverPause:true,
-		loop:true, 
+		loop:true,
 		items:1,
 		touchDrag: false,
 		mouseDrag: false,
-		margin:0,		
-		onInitialized: initProgressBar,			 
+		margin:0,
+		onInitialized: initProgressBar,
 		onResized: initProgressBar,
 		onChange: startProgressBar,
 		onChanged: resetProgressBar,
@@ -50,7 +53,6 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : va2.top}, 500);
 
 	});
- 
+
 
 });
-
